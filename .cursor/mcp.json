@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "unity": {
+      "command": "C:\\Users\\Lenovo\\AppData\\Local\\Unity\\bin\\unity.exe",
+      "args": [
+        "mcp",
+        "--project-path",
+        "D:\\Kuliah\\Unity\\Project\\Fish The Abyss"
+      ]
+    }
+  }
+}

@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: e1d9db6cfbd7bb3498c868e0451304dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4986647528881328518
+    second: Enemy1-Breach-TwoHands_0
+  - first:
+      213: -5921243962480650722
+    second: Enemy1-Breach-TwoHands_1
+  - first:
+      213: -4944180882825427557
+    second: Enemy1-Breach-TwoHands_2
+  - first:
+      213: 5031360799320127815
+    second: Enemy1-Breach-TwoHands_3
+  - first:
+      213: 7337742058701102257
+    second: Enemy1-Breach-TwoHands_4
+  - first:
+      213: 2822864542583366408
+    second: Enemy1-Breach-TwoHands_5
+  - first:
+      213: -4270502015871504696
+    second: Enemy1-Breach-TwoHands_6
+  - first:
+      213: 2754038577398533994
+    second: Enemy1-Breach-TwoHands_7
+  - first:
+      213: 3620451750130101877
+    second: Enemy1-Breach-TwoHands_8
+  - first:
+      213: 2164249087729563791
+    second: Enemy1-Breach-TwoHands_9
+  - first:
+      213: 6587635543669085679
+    second: Enemy1-Breach-TwoHands_10
+  - first:
+      213: -8004239213981295160
+    second: Enemy1-Breach-TwoHands_11
+  - first:
+      213: -8769003166851855541
+    second: Enemy1-Breach-TwoHands_12
+  - first:
+      213: 4797167252238622708
+    second: Enemy1-Breach-TwoHands_13
+  - first:
+      213: -3833456673607545998
+    second: Enemy1-Breach-TwoHands_14
+  - first:
+      213: -1011092250948666590
+    second: Enemy1-Breach-TwoHands_15
+  - first:
+      213: 8469217383281539464
+    second: Enemy1-Breach-TwoHands_16
+  - first:
+      213: -2395236421175795844
+    second: Enemy1-Breach-TwoHands_17
+  - first:
+      213: 7098763480965871318
+    second: Enemy1-Breach-TwoHands_18
+  - first:
+      213: -3521440768691366999
+    second: Enemy1-Breach-TwoHands_19
+  - first:
+      213: 3305541871004372201
+    second: Enemy1-Breach-TwoHands_20
+  - first:
+      213: -2098048809075448637
+    second: Enemy1-Breach-TwoHands_21
+  - first:
+      213: -2289761579014373856
+    second: Enemy1-Breach-TwoHands_22
+  - first:
+      213: -2824892387765150005
+    second: Enemy1-Breach-TwoHands_23
+  - first:
+      213: -2601301164933749734
+    second: Enemy1-Breach-TwoHands_24
+  - first:
+      213: 5219087209120201742
+    second: Enemy1-Breach-TwoHands_25
+  - first:
+      213: -4960551515380365635
+    second: Enemy1-Breach-TwoHands_26
+  - first:
+      213: -5502100738963446070
+    second: Enemy1-Breach-TwoHands_27
+  - first:
+      213: 4828278552152526655
+    second: Enemy1-Breach-TwoHands_28
+  - first:
+      213: 2453946579939238968
+    second: Enemy1-Breach-TwoHands_29
+  - first:
+      213: -2010631815583324437
+    second: Enemy1-Breach-TwoHands_30
+  - first:
+      213: 8675125658365516068
+    second: Enemy1-Breach-TwoHands_31
+  - first:
+      213: 2974561948757853718
+    second: Enemy1-Breach-TwoHands_32
+  - first:
+      213: 1873412993550087382
+    second: Enemy1-Breach-TwoHands_33
+  - first:
+      213: -2603934007882368831
+    second: Enemy1-Breach-TwoHands_34
+  - first:
+      213: 3967480381640782915
+    second: Enemy1-Breach-TwoHands_35
+  - first:
+      213: 5362304007939829034
+    second: Enemy1-Breach-TwoHands_36
+  - first:
+      213: -7283559119736996220
+    second: Enemy1-Breach-TwoHands_37
+  - first:
+      213: 4836181081702880395
+    second: Enemy1-Breach-TwoHands_38
+  - first:
+      213: 2121290471179365481
+    second: Enemy1-Breach-TwoHands_39
+  - first:
+      213: 3008576552747086758
+    second: Enemy1-Breach-TwoHands_40
+  - first:
+      213: -3724526214526229823
+    second: Enemy1-Breach-TwoHands_41
+  - first:
+      213: -8903996354629431847
+    second: Enemy1-Breach-TwoHands_42
+  - first:
+      213: -3328815618177417074
+    second: Enemy1-Breach-TwoHands_43
+  - first:
+      213: -925040078599746296
+    second: Enemy1-Breach-TwoHands_44
+  - first:
+      213: 4210941434766706473
+    second: Enemy1-Breach-TwoHands_45
+  - first:
+      213: 3837262600763496961
+    second: Enemy1-Breach-TwoHands_46
+  - first:
+      213: 4218391831173161205
+    second: Enemy1-Breach-TwoHands_47
+  - first:
+      213: 482902898146848399
+    second: Enemy1-Breach-TwoHands_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ee2fc2e7edbcab0800000000000000
+      internalID: -4986647528881328518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161aebfcf383dda0800000000000000
+      internalID: -5921243962480650722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95c9e5beadb26bb0800000000000000
+      internalID: -4944180882825427557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7493d4c5dfbf2d540800000000000000
+      internalID: 5031360799320127815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc925e7685e4d560800000000000000
+      internalID: 7337742058701102257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8032ab56854dc2720800000000000000
+      internalID: 2822864542583366408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cea36bea012cb4c0800000000000000
+      internalID: -4270502015871504696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fcf8f9e7f483620800000000000000
+      internalID: 2754038577398533994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e22fc4fad6e3230800000000000000
+      internalID: 3620451750130101877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy1-Breach-TwoHands_9
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 160
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88759f1415f80e10800000000000000
+      internalID: 2164249087729563791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66c7e26b1190f2243b3206d8d9e72020
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":160.0,"y":352.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Enemy1-Breach-TwoHands_0: -4986647528881328518
+      Enemy1-Breach-TwoHands_1: -5921243962480650722
+      Enemy1-Breach-TwoHands_2: -4944180882825427557
+      Enemy1-Breach-TwoHands_3: 5031360799320127815
+      Enemy1-Breach-TwoHands_4: 7337742058701102257
+      Enemy1-Breach-TwoHands_5: 2822864542583366408
+      Enemy1-Breach-TwoHands_6: -4270502015871504696
+      Enemy1-Breach-TwoHands_7: 2754038577398533994
+      Enemy1-Breach-TwoHands_8: 3620451750130101877
+      Enemy1-Breach-TwoHands_9: 2164249087729563791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
