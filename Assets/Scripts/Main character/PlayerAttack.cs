@@ -88,7 +88,7 @@ public class PlayerAttack : MonoBehaviour
                 continue;
             }
 
-            health.TakeDamage(damage);
+            health.TakeDamage(damage, transform);
             if (health.CurrentHealth <= 0)
                 attackableTargets.Remove(target);
         }

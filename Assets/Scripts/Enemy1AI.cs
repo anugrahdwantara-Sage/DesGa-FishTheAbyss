@@ -11,14 +11,27 @@ public class Enemy1AI : MonoBehaviour
     [SerializeField] float attackRange = 1.4f;
     [SerializeField] float attackCooldown = 1.5f;
     [SerializeField] float attackDuration = 0.75f;
+    [SerializeField] float launchHorizontalOffset = 2.5f;
+    [SerializeField] float launchJumpHeight = 1.5f;
+    [SerializeField] float landingOffsetTowardPlayer = 0.6f;
+    [SerializeField] float chaseJumpForce = 8f;
+    [SerializeField] float chaseJumpCooldown = 0.8f;
+    [SerializeField] float chaseJumpTargetHeight = 0.35f;
 
+    public float LaunchHorizontalOffset => launchHorizontalOffset;
+    public float LaunchJumpHeight => launchJumpHeight;
+    public float LandingOffsetTowardPlayer => landingOffsetTowardPlayer;
+
+    readonly ContactPoint2D[] contacts = new ContactPoint2D[8];
     Rigidbody2D body;
     Animator animator;
     SpriteRenderer spriteRenderer;
     PlayerAttack playerAttack;
+    CharacterHealth characterHealth;
     string currentAnimation;
     float attackTimer;
     float attackCooldownTimer;
+    float chaseJumpCooldownTimer;
     bool isBreaching;
 
     void Awake()
@@ -27,6 +40,7 @@ public class Enemy1AI : MonoBehaviour
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         playerAttack = GetComponent<PlayerAttack>();
+        characterHealth = GetComponent<CharacterHealth>();
     }
 
     void Start()
@@ -52,7 +66,14 @@ public class Enemy1AI : MonoBehaviour
         if (isBreaching)
             return;
 
+        if (characterHealth.IsHurt)
+        {
+            currentAnimation = null;
+            return;
+        }
+
         attackCooldownTimer -= Time.deltaTime;
+        chaseJumpCooldownTimer = Mathf.Max(0f, chaseJumpCooldownTimer - Time.deltaTime);
 
         if (attackTimer > 0f)
         {
@@ -82,6 +103,9 @@ public class Enemy1AI : MonoBehaviour
         if (spriteRenderer != null && distanceX > 0.01f)
             spriteRenderer.flipX = differenceX < 0f;
 
+        float moveDirection = Mathf.Sign(differenceX);
+        TryJumpTowardTarget(moveDirection);
+
         if (distanceX <= attackRange)
         {
             StopMoving();
@@ -99,8 +123,50 @@ public class Enemy1AI : MonoBehaviour
             return;
         }
 
-        body.linearVelocity = new Vector2(Mathf.Sign(differenceX) * moveSpeed, body.linearVelocity.y);
+        body.linearVelocity = new Vector2(moveDirection * moveSpeed, body.linearVelocity.y);
         PlayAnimation("walk");
+    }
+
+    void TryJumpTowardTarget(float moveDirection)
+    {
+        if (chaseJumpCooldownTimer > 0f)
+            return;
+
+        bool targetIsHigher = target.position.y - transform.position.y > chaseJumpTargetHeight;
+        bool grounded = IsGrounded();
+        bool canLeapFromWater = targetIsHigher && body.linearVelocity.y <= 0f;
+        if (!grounded && !canLeapFromWater)
+            return;
+
+        if (!targetIsHigher && !IsBlockedInDirection(moveDirection))
+            return;
+
+        body.linearVelocity = new Vector2(body.linearVelocity.x, chaseJumpForce);
+        chaseJumpCooldownTimer = chaseJumpCooldown;
+    }
+
+    bool IsGrounded()
+    {
+        int contactCount = body.GetContacts(contacts);
+        for (int i = 0; i < contactCount; i++)
+        {
+            if (contacts[i].normal.y > 0.5f)
+                return true;
+        }
+
+        return false;
+    }
+
+    bool IsBlockedInDirection(float direction)
+    {
+        int contactCount = body.GetContacts(contacts);
+        for (int i = 0; i < contactCount; i++)
+        {
+            if (contacts[i].normal.x * direction < -0.5f)
+                return true;
+        }
+
+        return false;
     }
 
     public void BeginBreach()
