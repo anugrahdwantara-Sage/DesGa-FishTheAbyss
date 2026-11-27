@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -83,7 +83,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b49dccaae265bdc48bbe8c3fdb2b50ce
-      internalID: -1975351572
+      spriteID: 8ba281b585893d645aa068753eeb5566
+      internalID: -2046426622
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31af26b8bf4c3cd48acfdca0c736e128
-      internalID: 608991320
+      spriteID: 64524593a197f7041aff60492e040123
+      internalID: 1932654467
       vertices: []
       indices: 
       edges: []
@@ -246,8 +246,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f78b291597b5c0843bf3fe4087aa4ec3
-      internalID: -1060298235
+      spriteID: fee4bb30f64e31b4eb1134128667439d
+      internalID: -1840126702
       vertices: []
       indices: 
       edges: []
@@ -268,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad777775862e694d848b79c70e46d07
-      internalID: 1486002366
+      spriteID: c146f56e522c6b84eab6f4a062a9d37f
+      internalID: 457181049
       vertices: []
       indices: 
       edges: []
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c994c021aa72a4097e1848e529af0f
-      internalID: -2015780944
+      spriteID: d00710cb93d970040bfb592a9baacce3
+      internalID: -1728748455
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a3dcdaf5f5c29db4193aef3b09ad8e36
+    spriteID: f9ec45cd986137b48baaa35824c8e2f0
     internalID: 0
     vertices: []
     indices: 
@@ -310,16 +310,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":640.0,"y":480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":640.0,"y":480.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Cave-Pond_0: 600963203912745785
       Cave-Pond_1: -8070246748000522449
       Cave-Pond_2: -7994014378188668842
-      Cave-Pond_3: -1975351572
-      Cave-Pond_4: 608991320
-      Cave-Pond_5: -1060298235
-      Cave-Pond_6: 1486002366
-      Cave-Pond_7: -2015780944
+      Cave-Pond_3: -2046426622
+      Cave-Pond_4: 1932654467
+      Cave-Pond_5: -1840126702
+      Cave-Pond_6: 457181049
+      Cave-Pond_7: -1728748455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
