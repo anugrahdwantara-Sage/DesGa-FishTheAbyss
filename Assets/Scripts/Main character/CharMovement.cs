@@ -411,6 +411,13 @@ public class CharMovement : MonoBehaviour
         attackTimer = 0f;
     }
 
+    public void SetFollowCamera(Camera camera)
+    {
+        followCamera = camera;
+        if (followCamera != null)
+            cameraOffset = followCamera.transform.position - transform.position;
+    }
+
     void OnDestroy()
     {
         if (fishingLineMaterial != null)
